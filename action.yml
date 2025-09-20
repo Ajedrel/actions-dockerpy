@@ -11,4 +11,4 @@ outputs:
     description: Salida del mensaje
 runs: 
   using: 'docker'
-  image: 'DockerFile' # Se puede usar la direccion de tu imagen
+  image: 'Dockerfile' # Se puede usar la direccion de tu imagen
