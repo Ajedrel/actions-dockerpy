@@ -1,0 +1,14 @@
+name: Demo de docker con python y actions
+description: Saludar desde docker python
+inputs:
+  nombre:
+    required: false
+    type: string
+    default: Jade
+    description: Nombre de la persona a saludar 
+outputs:
+  saludo:
+    description: Salida del mensaje
+runs: 
+  using: 'docker'
+  image: 'DockerFile' # Se puede usar la direccion de tu imagen
